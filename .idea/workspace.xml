@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="creating pet class in progress">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/PetServiceUri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/UriTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="creating pet class and required files in progress">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/interfaces/PetStoreStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/PetServiceUri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/PetServiceUri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/UriTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/UriTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,6 +54,30 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="PetServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hw_pet_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_pet_test.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_pet_test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_pet_test.PetServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PetServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663224061872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creating pet class and required files in progress">
+      <created>1663254950942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663254950942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change ignore file" />
     <MESSAGE value="creating pet class in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating pet class in progress" />
+    <MESSAGE value="creating pet class and required files in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating pet class and required files in progress" />
   </component>
 </project>
