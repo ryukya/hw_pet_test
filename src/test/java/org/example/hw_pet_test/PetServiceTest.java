@@ -48,7 +48,7 @@ public class PetServiceTest {
                 .setId(id)
                 .setName("Kota" + random.nextInt(50) )
                 .setCategory(category)
-                .setStatus(statusenum)
+                .setStatuss(status.valueOf(statusenum))
                 .setTags(tagList);
     }
 }

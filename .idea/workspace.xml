@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="3 test done but because expected respon code is different, was counted as failed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/enums/orderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/enums/status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/interfaces/PetStoreStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
+    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="2 test dione">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663258665440</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 test dione">
+      <created>1663289420487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663289420487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +145,7 @@
     <MESSAGE value="creating pet class in progress" />
     <MESSAGE value="creating pet class and required files in progress" />
     <MESSAGE value="3 test done but because expected respon code is different, was counted as failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 test done but because expected respon code is different, was counted as failed" />
+    <MESSAGE value="2 test dione" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 test dione" />
   </component>
 </project>
