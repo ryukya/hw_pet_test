@@ -44,11 +44,14 @@ public class PetServiceTest {
                 .setName("Tag1");
         List<Tag> tagList = new ArrayList<>();
         tagList.add(tag1);
+        List<String> URLList = new ArrayList<>();
+        URLList.add("PhotoURL");
         return new Pet()
                 .setId(id)
                 .setName("Kota" + random.nextInt(50))
                 .setCategory(category)
                 .setStatuss(status.valueOf(statusenum))
-                .setTags(tagList);
+                .setTags(tagList)
+                .setPhotoUrls(URLList);
     }
 }

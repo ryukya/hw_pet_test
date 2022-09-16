@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="2 test done- change to enum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/OrderServiceUri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/OrderServiceSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="Done create 3 test for order">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663289936853</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Done create 3 test for order">
+      <created>1663293243550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663293243550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +180,7 @@
     <MESSAGE value="3 test done but because expected respon code is different, was counted as failed" />
     <MESSAGE value="2 test dione" />
     <MESSAGE value="2 test done- change to enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 test done- change to enum" />
+    <MESSAGE value="Done create 3 test for order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done create 3 test for order" />
   </component>
 </project>
