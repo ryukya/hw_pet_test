@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="2 test dione">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Order.java" afterDir="false" />
+    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="2 test done- change to enum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/OrderServiceUri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/OrderServiceSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,24 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PetServiceTest">
+  <component name="RunManager" selected="TestNG.OrderServiceTest">
+    <configuration name="OrderServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hw_pet_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_pet_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_pet_test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_pet_test.OrderServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PetServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hw_pet_test" />
       <extension name="coverage">
@@ -84,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.OrderServiceTest" />
         <item itemvalue="TestNG.PetServiceTest" />
         <item itemvalue="TestNG.PetServiceTest.getPetByStatusTest" />
       </list>
@@ -126,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663289420487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2 test done- change to enum">
+      <created>1663289936853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663289936853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +176,7 @@
     <MESSAGE value="creating pet class and required files in progress" />
     <MESSAGE value="3 test done but because expected respon code is different, was counted as failed" />
     <MESSAGE value="2 test dione" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 test dione" />
+    <MESSAGE value="2 test done- change to enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 test done- change to enum" />
   </component>
 </project>
