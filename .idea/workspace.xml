@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="creating pet class and required files in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/interfaces/PetStoreStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
+    <list default="true" id="05d04c7c-c810-412b-8c62-d68bef1363b1" name="Changes" comment="3 test done but because expected respon code is different, was counted as failed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/enums/orderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/entities/status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/enums/status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/interfaces/PetStoreStatus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/CommonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/PetServiceUri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/PetServiceUri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/UriTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/service/uritemplate/UriTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hw_pet_test/steps/PetServiceSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw_pet_test/PetServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.PetServiceTest">
     <configuration name="PetServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hw_pet_test" />
       <extension name="coverage">
@@ -72,9 +74,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PetServiceTest.getPetByStatusTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hw_pet_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hw_pet_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.hw_pet_test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.hw_pet_test.PetServiceTest" />
+      <option name="METHOD_NAME" value="getPetByStatusTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PetServiceTest" />
+        <item itemvalue="TestNG.PetServiceTest.getPetByStatusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663254950942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3 test done but because expected respon code is different, was counted as failed">
+      <created>1663258665440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663258665440</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +147,7 @@
     <MESSAGE value="change ignore file" />
     <MESSAGE value="creating pet class in progress" />
     <MESSAGE value="creating pet class and required files in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating pet class and required files in progress" />
+    <MESSAGE value="3 test done but because expected respon code is different, was counted as failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 test done but because expected respon code is different, was counted as failed" />
   </component>
 </project>

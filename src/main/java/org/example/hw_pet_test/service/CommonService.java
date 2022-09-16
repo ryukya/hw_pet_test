@@ -35,7 +35,7 @@ public abstract class CommonService {
     }
 
     protected Response postRequest(String uri, Object body) {
-        return requestSpecification.body(body).expect().statusCode(HttpStatus.SC_CREATED).log().ifError()
+        return requestSpecification.body(body).expect().statusCode(200).log().ifError()
                 .when().post(prepareUri.apply(uri));
     }
 

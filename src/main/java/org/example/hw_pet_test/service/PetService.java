@@ -15,6 +15,9 @@ public class PetService extends CommonService{
     public Response getRequest(UriTemplate uri, int id) {
         return super.getRequest(uri.getUri(id));
     }
+    public Response getRequest(UriTemplate uri, String status) {
+        return super.getRequest(uri.getUri(status));
+    }
 
     public Response postRequest(UriTemplate uri, Object body) {
         return super.postRequest(uri.getUri(), body);
